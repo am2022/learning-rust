@@ -2,6 +2,7 @@ use std::io;
 
 fn main(){
     let mut s_num = String::new();
+    println!("enter the number:");
     io::stdin().read_line(&mut s_num).expect("invalid input!");
     
     let num: i64 = s_num.trim().parse().expect("invalid input!");
