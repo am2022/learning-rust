@@ -16,6 +16,6 @@ fn main(){
     let b: i64 = 18;
 
     hello(); //prints hello world
-    max_ab = max(a, b); //returns bigger number
+    let max_ab = max(a, b); //returns bigger number
     println!("max:{max_ab}");
 }
