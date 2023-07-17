@@ -6,8 +6,8 @@ struct User{
 
 fn main(){
     let user1 = User{
-        username: String::from("test@test.com"),
-        email: String::from("test"),
+        username: String::from("test"),
+        email: String::from("test@test.com"),
         friend_count: 5,
     };
 
